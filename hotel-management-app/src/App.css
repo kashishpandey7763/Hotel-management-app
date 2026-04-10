@@ -1,0 +1,32 @@
+/* 🔥 NAVBAR FIX */
+.nav {
+  display: flex;
+  justify-content: space-between;   /* left-right spacing */
+  align-items: center;              /* vertical center */
+  padding: 15px 30px;
+  background: #222;
+}
+
+/* links container */
+.nav div {
+  display: flex;
+  gap: 20px;                        /* 👈 spacing between buttons */
+}
+
+/* links */
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* hover */
+.nav a:hover {
+  color: #ff9800;
+}
+/* 🔥 HOME IMAGE FIX */
+.home-img {
+  width: 100%;
+  height: 100%;      /* 👈 parent ke hisaab se */
+  object-fit: cover;
+}
